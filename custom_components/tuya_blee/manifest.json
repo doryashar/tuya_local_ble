@@ -1,6 +1,6 @@
 {
-  "domain": "tuya_ble",
-  "name": "Tuya BLE",
+  "domain": "tuya_blee",
+  "name": "Tuya BLEE",
   "bluetooth": [
     {
       "connectable": true,
