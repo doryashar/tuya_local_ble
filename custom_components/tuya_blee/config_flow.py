@@ -19,7 +19,7 @@ from homeassistant.const import CONF_ADDRESS
 from homeassistant.core import callback
 from homeassistant.data_entry_flow import FlowResult
 
-from .tuya_ble import SERVICE_UUID, TuyaBLEDeviceCredentials
+from .tuya_blee import SERVICE_UUID, TuyaBLEDeviceCredentials
 
 from .const import (
     DOMAIN,

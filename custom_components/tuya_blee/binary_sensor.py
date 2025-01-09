@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 from threading import Timer
 import time
-from .tuya_ble import TuyaBLEDataPointType
+from .tuya_blee import TuyaBLEDataPointType
 
 import logging
 from typing import Callable
@@ -25,7 +25,7 @@ from .const import (
     DOMAIN,
 )
 from .devices import TuyaBLEData, TuyaBLEEntity, TuyaBLEProductInfo
-from .tuya_ble import TuyaBLEDataPointType, TuyaBLEDevice
+from .tuya_blee import TuyaBLEDataPointType, TuyaBLEDevice
 
 _LOGGER = logging.getLogger(__name__)
 

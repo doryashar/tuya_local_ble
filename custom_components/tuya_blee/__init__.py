@@ -12,7 +12,7 @@ from homeassistant.const import CONF_ADDRESS, EVENT_HOMEASSISTANT_STOP, Platform
 from homeassistant.core import Event, HomeAssistant, callback
 from homeassistant.exceptions import ConfigEntryNotReady
 
-from .tuya_ble import TuyaBLEDevice
+from .tuya_blee import TuyaBLEDevice
 
 from .keyman import HASSTuyaBLEDeviceManager
 from .const import DOMAIN

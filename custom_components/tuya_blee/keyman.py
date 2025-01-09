@@ -10,7 +10,7 @@ from typing import Any
 from homeassistant.const import CONF_ADDRESS, CONF_DEVICE_ID
 from homeassistant.core import HomeAssistant
 
-from .tuya_ble import (
+from .tuya_blee import (
     AbstaractTuyaBLEDeviceManager,
     TuyaBLEDeviceCredentials,
 )
